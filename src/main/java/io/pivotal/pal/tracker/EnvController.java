@@ -31,7 +31,8 @@ public class EnvController {
     public Map<String, String> getEnv() {
         Map<String, String> map = new HashMap<>();
 
-        map.put("PORTAAAA", this.Port);
+        map.put("PORT", this.Port);
+        map.put("blablabla", "Halloooooooooooooooooooo");
         map.put("MEMORY_LIMIT", this.Memory_Limit);
         map.put("CF_INSTANCE_INDEX", this.CF_Instance_Index);
         map.put("CF_INSTANCE_ADDR", this.CF_Instance_Addr);
